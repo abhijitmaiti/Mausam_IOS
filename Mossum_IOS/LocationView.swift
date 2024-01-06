@@ -15,7 +15,7 @@ struct LocationView: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
                 VStack(spacing :30){
-                    Text("Welcome to the Mossam")
+                    Text("Welcome to the Mausam")
                                        .bold()
                                        .font(.title)
                         .foregroundColor(.white)

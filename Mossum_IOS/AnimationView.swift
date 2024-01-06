@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AnimationView: View {
     var body: some View {
-        TextAnimation(text: "Mossam")
+        TextAnimation(text: "Mausam")
         
     }
 }
