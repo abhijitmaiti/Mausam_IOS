@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-
 struct LocationView: View {
+    
+
     var body: some View {
         ZStack{
             Color("blue")
@@ -23,15 +24,16 @@ struct LocationView: View {
                                    
                                    Text("Please share your current location to get the weather in your area")
                                     .foregroundColor(.white)
+                                    .padding(.horizontal,40)
                                        
                 }
                 .multilineTextAlignment(.center)
                 .padding(.horizontal,10)
-                
-                
-            }
+               
         }
     }
+        
+        
 }
 
 struct LocationView_Previews: PreviewProvider {
@@ -39,3 +41,6 @@ struct LocationView_Previews: PreviewProvider {
         LocationView()
     }
 }
+
+
+
