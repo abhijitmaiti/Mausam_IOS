@@ -110,15 +110,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-//struct AnimationView : View {
-//    var body :  some View{
-//        VStack(alignment : .center){
-//            Text("Mossam")
-//                .font(.system(size: 40, weight: .semibold, design:.serif ))
-//                .foregroundColor(.white)
-//        }
-//    }
-//}
 
 struct WeatherNowView : View {
     var logoName : String
